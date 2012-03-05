@@ -28,6 +28,10 @@
         <service id="sonata.admin.orm.filter.type.number" class="Sonata\DoctrineORMAdminBundle\Filter\NumberFilter">
             <tag name="sonata.admin.filter.type" alias="doctrine_orm_number" />
         </service>
+
+        <service id="sonata.admin.orm.filter.type.number" class="Sonata\DoctrineORMAdminBundle\Filter\DatepickerFilter">
+            <tag name="sonata.admin.filter.type" alias="doctrine_orm_datepicker" />
+        </service>
     </services>
 
 </container>
