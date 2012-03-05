@@ -12,7 +12,6 @@ use Sonata\AdminBundle\Form\Type\BooleanType;
 use Sonata\AdminBundle\Form\Type\Filter\DatepickerType;
 use Sonata\DoctrineORMAdminBundle\Filter\Filter;
 
-//class DatepickerFilter extends Filter
 class DatepickerFilter extends \Sonata\DoctrineORMAdminBundle\Filter\NumberFilter
 {
     /**
